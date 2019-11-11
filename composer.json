@@ -1,0 +1,23 @@
+{
+    "name": "jack-laoniu/find-java-api",
+    "description": "一些简单的代码查找",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack Niu",
+            "email": "jackniu.self@gamil.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [],
+        "files": [
+            "app/Common/helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "SelfTools\\FindJavaApi\\":"src/"
+        }
+    },
+}
