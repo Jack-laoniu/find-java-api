@@ -9,11 +9,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "jack-laoniu/find-java-api": "~1.0"
+    },
     "autoload": {
         "classmap": [],
         "psr-4": {
-            "SelfTools\\FindJavaApi\\":"src/"
+            "SelfTools\\FindJavaApi\\": "src/"
         }
     }
 }
