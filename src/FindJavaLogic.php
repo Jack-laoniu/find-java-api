@@ -18,13 +18,6 @@ use Illuminate\Support\Arr;
 class FindJavaLogic {
     public static $validators;
 
-    public $pips = [
-        'SelfTools\FindJavaApi\FindJava\FindExcute',
-        'SelfTools\FindJavaApi\FindJava\FindLibrary',
-//        'FindJava\FindSelfLibrary',
-        'SelfTools\FindJavaApi\FindJava\FindPath'
-    ];
-
 
     protected $table = 'test2';
 //    protected $dates = ['email','created_at'];
@@ -228,7 +221,7 @@ class FindJavaLogic {
     public function testArrayReduce($code)
     {
 //        $functions = array_merge(config('special_str.B.java_curl') , config('special_str.B.final_func'));
-        return (new Pipeline(new \Illuminate\Container\Container()))->send($code)->through($this->pips)->then(function($code){
+        return (new Pipeline(new \Illuminate\Container\Container()))->send($code)->through(\config('piplines.lines'))->then(function($code){
             $fuck_code = array();
             array_walk($code,function(&$item,$key) use ($code,&$fuck_code){
                 if($item){

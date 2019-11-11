@@ -8,7 +8,6 @@
 **在config/app.php中添加** `SelfTools\FindJavaApi\FindJavaApiProvider::class`
 
 ### 使用
-**使用示例**
 ```
 public function getTest(Request $request)
     {
