@@ -6,7 +6,7 @@
  * Time: 下午5:44
  */
 
-namespace SelfTools\FindJavaApi;
+namespace SelfTools\FindJavaApi\FindJava;
 use Illuminate\Support\Arr;
 
 

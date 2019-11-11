@@ -19,10 +19,10 @@ class FindJavaLogic {
     public static $validators;
 
     public $pips = [
-        '\App\Common\FindJava\FindExcute',
-        '\App\Common\FindJava\FindLibrary',
-//        '\App\Common\FindJava\FindSelfLibrary',
-        '\App\Common\FindJava\FindPath'
+        'SelfTools\FindJavaApi\FindJava\FindExcute',
+        'SelfTools\FindJavaApi\FindJava\FindLibrary',
+//        'FindJava\FindSelfLibrary',
+        'SelfTools\FindJavaApi\FindJava\FindPath'
     ];
 
 

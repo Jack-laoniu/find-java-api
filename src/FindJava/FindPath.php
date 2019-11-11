@@ -6,7 +6,7 @@
  * Time: 下午6:00
  */
 
-namespace SelfTools\FindJavaApi;
+namespace SelfTools\FindJavaApi\FindJava;
 
 
 class FindPath {
