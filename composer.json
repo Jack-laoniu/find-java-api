@@ -19,11 +19,9 @@
         }
     },
     "scripts": {
-        "post-package-update": [
-            "mkdir test_script"
+        "test": [
+            "@testmkdir"
         ],
-        "post-package-install": [
-            "mkdir test_script"
-        ]
+        "testmkdir": "mkdir test_script"
     }
 }
