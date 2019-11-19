@@ -17,5 +17,6 @@
         "psr-4": {
             "SelfTools\\FindJavaApi\\": "src/"
         }
-    }
+    },
+    "bin": ["bin/testbin"]
 }
