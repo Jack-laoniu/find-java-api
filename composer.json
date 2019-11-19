@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "jack-laoniu/find-java-api": "master"
+        "jack-laoniu/find-java-api": "~1.0"
     },
     "autoload": {
         "classmap": [],
@@ -18,5 +18,12 @@
             "SelfTools\\FindJavaApi\\": "src/"
         }
     },
-    "bin": ["bin/testbin"]
+    "scripts": {
+        "post-package-update": [
+            "mkdir test_script"
+        ],
+        "post-package-install": [
+            "mkdir test_script"
+        ]
+    }
 }

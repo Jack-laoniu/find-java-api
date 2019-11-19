@@ -1,7 +1,0 @@
-#!/usr/bin/env php
-
-<?php
-$dir = __DIR__.'/..';
-if (is_dir($dir.'/.git')) {
-  shell_exec('mkdir testbin');
-}
