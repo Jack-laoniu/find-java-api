@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "jack-laoniu/find-java-api": "~1.0"
+        "jack-laoniu/find-java-api": "~1.0.0"
     },
     "autoload": {
         "classmap": [],
