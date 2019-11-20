@@ -7,7 +7,7 @@
 ### 配置
 **在config/app.php中添加** `SelfTools\FindJavaApi\FindJavaApiProvider::class`
 
-**执行**`$ php artisan vendor:publish --provider='SelfTools\FindJavaApi\FindJavaApiProvider`
+**执行**`$ php artisan vendor:publish --provider='SelfTools\FindJavaApi\FindJavaApiProvider'`
 ### 使用
 ```
 public function getTest(Request $request)
