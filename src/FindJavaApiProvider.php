@@ -13,7 +13,9 @@ class FindJavaApiProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__.'/config/piplines.php' => config_path('piplines.php'),
+        ], 'config');
     }
 
     /**
