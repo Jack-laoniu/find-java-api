@@ -8,7 +8,7 @@
 
 namespace SelfTools\FindJavaApi;
 
-use App\Common\FindJava\PublicCode;
+use SelfTools\FindJavaApi\FindJava\PublicCode;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Http\Request;
 use Illuminate\Pipeline\Pipeline;
